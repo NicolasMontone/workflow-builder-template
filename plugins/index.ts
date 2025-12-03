@@ -16,12 +16,18 @@
  * Discovered plugins: ai-gateway, exa, firecrawl, linear, resend, slack, v0
  */
 
-import "./ai-gateway";
 import "./exa";
+import "./ai-gateway";
+import "./blob";
+import "./fal";
 import "./firecrawl";
+import "./github";
 import "./linear";
+import "./perplexity";
 import "./resend";
 import "./slack";
+import "./stripe";
+import "./superagent";
 import "./v0";
 
 export type {
